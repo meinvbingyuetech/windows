@@ -24,3 +24,4 @@ br=git br
 merge=git merge $*
 ck=git ck $*
 add=git add $*
+com=git com $*
