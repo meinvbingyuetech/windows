@@ -25,3 +25,4 @@ merge=git merge $*
 ck=git ck $*
 add=git add $*
 com=git com $*
+gg=git pull && git add . && git com -m $1 && git push && git st
