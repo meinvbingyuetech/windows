@@ -26,3 +26,6 @@ ck=git ck $*
 add=git add $*
 com=git com $*
 gg=git pull && git add . && git com -m $1 && git push && git st
+
+;= gg2 dev-v1 测试 （gg2 当前分支 本次提交备注）
+gg2=git pull && git add . && git com -m $2 && git push && git st && git ck slave && git ll && git merge $1 && git pu && git ck $1 && git st
